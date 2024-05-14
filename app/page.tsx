@@ -1,10 +1,9 @@
-import Tree from "@/components/tree";
-import Image from "next/image";
+import TreeEditorCanvas from "@/components/tree-editor-canvas";
 
 export default function Home() {
   return (
     <main>
-      <Tree />
+      <TreeEditorCanvas />
     </main>
   );
 }
